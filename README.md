@@ -1,6 +1,8 @@
 # Bandcamp Release Page Reorganizer
 
-A small userscript that changes the order of elements on Bandcamp release pages: the player and tracklist stay on top, everything else (purchase widgets, featured video, etc.) moves below.
+Aren't you tired of scrolling gazillions of merch items and cds and t-shirt promotions to find the tracklist of an album in Bandcamp? This is a small userscript made to solve that.
+
+It changes the order of elements on Bandcamp release pages: the player and tracklist stay on top, everything else (purchase widgets, featured video, etc.) moves below.
 
 ## What it does
 
