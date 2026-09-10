@@ -22,7 +22,3 @@ It changes the order of elements on Bandcamp release pages: the player and track
 1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
 2. [Click here to install](https://raw.githubusercontent.com/bbmane/bandcamp-release-page-reorganizer/main/main.user.js).
 3. Visit any Bandcamp release page — the layout will reorganize automatically.
-
-## License
-
-GPL-3.0 — see [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html) for the full text.
