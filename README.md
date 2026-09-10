@@ -1,0 +1,26 @@
+# Bandcamp Release Page Reorganizer
+
+A small userscript that changes the order of elements on Bandcamp release pages: the player and tracklist stay on top, everything else (purchase widgets, featured video, etc.) moves below.
+
+## What it does
+
+- Moves non-digital `.buyItem` widgets (vinyl, CD, merch, etc.) into `#trackInfo`
+- Moves the `.featured-video-wrapper` into `#trackInfo`
+- Moves `.buy-offsite-item` links into `#trackInfo`
+- Watches the page for dynamically loaded elements and relocates them automatically
+
+## Before / After
+
+| Before                                     | After                                     |
+| ------------------------------------------ | ----------------------------------------- |
+| ![Before](https://i.imgur.com/6wh5tXo.png) | ![After](https://i.imgur.com/fh7S5lk.png) |
+
+## Installation
+
+1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
+2. [Click here to install](https://raw.githubusercontent.com/bbmane/bandcamp-release-page-reorganizer/main/main.user.js).
+3. Visit any Bandcamp release page — the layout will reorganize automatically.
+
+## License
+
+GPL-3.0 — see [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html) for the full text.
