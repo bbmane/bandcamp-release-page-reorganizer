@@ -6,6 +6,10 @@ It changes the order of elements on Bandcamp release pages: the player and track
 
 ## What it does
 
+<p align="left">
+  <img src="https://i.imgur.com/6Lf9NZt.gif" width="50%">
+</p>
+
 - Moves non-digital `.buyItem` widgets (vinyl, CD, merch, etc.) into `#trackInfo`
 - Moves the `.featured-video-wrapper` and `.buy-offsite-item` links into `#trackInfo`
 - Watches the page for dynamically loaded elements and relocates them automatically
