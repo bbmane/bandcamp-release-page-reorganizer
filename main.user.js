@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bandcamp Release Page Reorganizer
 // @namespace    https://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Small userscript to change the order of the release page elements: player and tracklist on top, everything else below.
 // @author       bbmane
 // @match        *://*.bandcamp.com/album*
@@ -19,8 +19,8 @@
     ];
 
     /**
-     * Moves matching elements into the #trackInfo container.
-     * Ensures each element is moved only once.
+     * Moves matching elements into the #trackInfo container
+     * and applies necessary styles.
      */
     function relocateElements() {
         const trackInfo = document.querySelector('#trackInfo');
@@ -36,6 +36,12 @@
                 }
             });
         });
+
+        // Apply style specifically to the featured video wrapper
+        const videoWrapper = document.querySelector('.featured-video-wrapper');
+        if (videoWrapper) {
+            videoWrapper.style.setProperty('margin-top', '24px', 'important');
+        }
     }
 
     // Run immediately on page load
