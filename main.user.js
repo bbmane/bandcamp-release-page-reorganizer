@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Small userscript to change the order of the release page elements: player and tracklist on top, everything else below.
 // @author       bbmane
-// @match        *://*.bandcamp.com/*
+// @match        *://*.bandcamp.com/album*
 // @grant        none
 // ==/UserScript==
 
